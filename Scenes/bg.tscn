@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://gmqdsepavf2g"]
+
+[ext_resource type="Texture2D" uid="uid://cc55xrxiqjotx" path="res://assets/Background/Blue.png" id="1_nhjgd"]
+
+[node name="Bg" type="Parallax2D"]
+repeat_size = Vector2(64, 64)
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_nhjgd")
